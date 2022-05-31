@@ -1,10 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import PreLoader from "./components/preLoader";
+import TestPage from "./components/testPage";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false)
+    }, 2000)
+  }, [])
+
   return (
-    <div>
-    </div>
+    <>
+    {isLoading && <PreLoader/>}
+    <TestPage/>
+    </>
   );
 }
 
