@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { AnimatePresence } from "framer-motion";
 import PreLoader from "./components/preLoader";
 import TestPage from "./components/testPage";
 
@@ -13,7 +14,9 @@ function App() {
 
   return (
     <>
+    <AnimatePresence exitBeforeEnter>
     {isLoading && <PreLoader/>}
+    </AnimatePresence>
     <TestPage/>
     </>
   );
