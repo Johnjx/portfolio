@@ -15,4 +15,10 @@
     .feature {
         @apply h-2/3 w-2/4 border-cyan-600 border-2;
     }
+    .focus {
+        @apply h-screen bg-yellow-100;
+    }
+    .focus-piece {
+        @apply h-1/4 w-3/12 flex flex-col justify-evenly items-center;
+    }
 }

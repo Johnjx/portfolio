@@ -1,5 +1,6 @@
 import Intro from "./components/intro";
 import Projects from "./components/projects";
+import Focus from "./components/focus";
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <Intro/>
     <Projects/>
+    <Focus/>
     </>
   );
 }
