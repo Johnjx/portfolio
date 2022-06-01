@@ -13,10 +13,10 @@
         @apply w-2/4 h-full;
     }
     .projects {
-        @apply bg-green-100 h-screen;
+        @apply h-screen;
     }
     .feature {
-        @apply h-2/3 w-2/4 border-cyan-600 border-2;
+        @apply h-2/3 w-3/5 border-black;
     }
     .focus {
         @apply h-screen bg-yellow-100;

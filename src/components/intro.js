@@ -2,17 +2,17 @@ export const Intro = () => (
     <div>
         <h1
         className="text-center text-5xl p-6"
-        >John Ruddock
+        >John Ruddock,
         </h1>
         <h2
         className="text-center text-4xl p-7"
-        >Full Stack Web Developer.
+        >Full Stack Web Developer
         </h2>
         <div className="h-3 w-1/3 mx-auto mb-4 bg-red-300">
         </div>
         <div className="flex">
             <section className="w-2/4 p-4">
-                <h2 className="text-3xl p-2">Vision.</h2>
+                <h2 className="text-3xl p-2">Vision</h2>
                 <div className="h-1 w-1/3 bg-red-300">
                 </div>
                 <p className="p-2 leading-loose">
@@ -20,7 +20,7 @@ export const Intro = () => (
                 </p>
             </section>
             <section className="w-2/4 p-4">
-                <h2 className="text-3xl p-2">Skillset.</h2>
+                <h2 className="text-3xl p-2">Skillset</h2>
                 <div className="h-1 w-1/3 bg-red-300">
                 </div>
                 <div className="h-3/4 flex flex-col justify-evenly p-2">
