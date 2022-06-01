@@ -3,10 +3,4 @@
 @tailwind utilities;
 
 @layer components {
-    .pre-loader {
-        @apply h-screen w-screen z-10 flex justify-center items-center;
-    }
-    .pre-loader-gif {
-        @apply bg-[url('../public/assets/cloud-lightning.gif')] bg-no-repeat h-32 w-32;
-    }
 }
