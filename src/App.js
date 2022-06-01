@@ -1,10 +1,10 @@
-import { useState } from "react";
+import Intro from "./components/intro";
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true)
 
   return (
     <>
+    <Intro/>
     </>
   );
 }
