@@ -4,10 +4,13 @@
 
 @layer components {
     .skill-row {
-        @apply h-1/6 bg-slate-300 flex;
+        @apply h-1/6 flex;
     }
     .skill-cell {
-        @apply w-2/4 h-full bg-teal-300 border-cyan-600 border-2;
+        @apply w-2/4 h-full border-black border-2 flex;
+    }
+    .skill-inner {
+        @apply w-2/4 h-full;
     }
     .projects {
         @apply bg-green-100 h-screen;
