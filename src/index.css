@@ -9,4 +9,10 @@
     .skill-cell {
         @apply w-2/4 h-full bg-teal-300 border-cyan-600 border-2;
     }
+    .projects {
+        @apply bg-green-100 h-screen;
+    }
+    .feature {
+        @apply h-2/3 w-2/4 border-cyan-600 border-2;
+    }
 }
