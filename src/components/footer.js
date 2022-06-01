@@ -1,15 +1,15 @@
-import { FaFire } from 'react-icons/fa'
+import { FaFire, FaLinkedin } from 'react-icons/fa'
 
 export const Footer = () => (
     <section className="footer">
         <nav className="bg-slate-300 h-4/6 flex flex-col items-center justify-evenly">
-            <a className="footer-nav" href='/'>
+            <a className="footer-nav" href='https://www.linkedin.com/in/john-ruddock/'>
                 <h6
                 className='h-2/4'
-                >Testing</h6>
+                >LinkedIn</h6>
                 <div
                 className='h-2/4 mt-1 ml-1'
-                ><FaFire/></div>
+                ><FaLinkedin/></div>
             </a>
             <a className="footer-nav" href='/'>
                 <h6
