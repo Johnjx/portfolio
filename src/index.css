@@ -21,4 +21,10 @@
     .focus-piece {
         @apply h-1/4 w-3/12 flex flex-col justify-evenly items-center;
     }
+    .footer {
+        @apply h-96 bg-purple-200;
+    }
+    .footer-nav {
+        @apply h-1/5 w-2/5 bg-slate-200 flex justify-center;
+    }
 }
