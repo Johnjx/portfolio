@@ -1,4 +1,4 @@
-import { FaFire, FaLinkedin } from 'react-icons/fa'
+import { FaFire, FaLinkedin, FaGithub } from 'react-icons/fa'
 
 export const Footer = () => (
     <section className="footer">
@@ -11,13 +11,13 @@ export const Footer = () => (
                 className='h-2/4 mt-1 ml-1'
                 ><FaLinkedin/></div>
             </a>
-            <a className="footer-nav" href='/'>
+            <a className="footer-nav" href='https://github.com/Johnjx'>
                 <h6
                 className='h-2/4'
-                >Testing</h6>
+                >GitHub</h6>
                 <div
                 className='h-2/4 mt-1 ml-1'
-                ><FaFire/></div>
+                ><FaGithub/></div>
             </a>
             <a className="footer-nav" href='/'>
                 <h6

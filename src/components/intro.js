@@ -2,7 +2,7 @@ export const Intro = () => (
     <div>
         <h1
         className="text-center text-5xl p-6"
-        >John Ruddock,
+        >John Ruddock
         </h1>
         <h2
         className="text-center text-4xl p-7"
@@ -18,6 +18,8 @@ export const Intro = () => (
                 <p className="p-2 leading-loose">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum mattis pellentesque id nibh. Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Aenean pharetra magna ac placerat. Donec massa sapien faucibus et. Tristique nulla aliquet enim tortor at auctor. Urna nunc id cursus metus aliquam. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Bibendum enim facilisis gravida neque convallis a cras semper.      
                 </p>
+                <div className="h-8 w-1/3 bg-white">
+                </div>
             </section>
             <section className="w-2/4 p-4">
                 <h2 className="text-3xl p-2">Skillset</h2>
@@ -110,6 +112,16 @@ export const Intro = () => (
                             Framer Motion
                             </div>
                             <div className="skill-inner bg-pink-200">
+                            ★★★☆☆
+                            </div>
+                        </div>
+                    </section>
+                    <section className="skill-row">
+                        <div className="skill-cell">
+                            <div className="skill-inner bg-white">
+                            Git
+                            </div>
+                            <div className="skill-inner bg-white">
                             ★★★★☆
                             </div>
                         </div>
