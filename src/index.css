@@ -1,19 +1,29 @@
+/* Header Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* Regular Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
+    .heading {
+        @apply bg-white flex flex-col justify-center;
+    }
     .skill-row {
         @apply h-1/6 flex;
     }
     .skill-cell {
-        @apply w-2/4 h-full border-black border-2 flex;
+        @apply w-2/4 h-full border-black border-2 flex hover:font-bold transition-all;
     }
     .skill-inner {
-        @apply w-2/4 h-full;
+        @apply w-2/4 h-full p-2;
     }
     .projects {
-        @apply h-screen;
+        @apply h-screen mt-24;
     }
     .feature {
         @apply h-2/3 w-3/5 border-black;
@@ -22,12 +32,12 @@
         @apply h-screen;
     }
     .focus-piece {
-        @apply h-1/4 w-4/12 flex flex-col justify-evenly items-center;
+        @apply h-2/5 w-4/12 flex flex-col justify-evenly items-center;
     }
     .footer {
-        @apply h-96 bg-purple-200;
+        @apply h-72 bg-quad;
     }
     .footer-nav {
-        @apply h-1/5 w-2/5 bg-slate-200 flex justify-center;
+        @apply h-1/5 w-1/12 flex justify-center;
     }
 }
