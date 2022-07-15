@@ -8,5 +8,8 @@ Continual improvement.
 React, Tailwind CSS
 ### Roadmap
 I will keep updating this portfolio as I learn new skills and grow my craft. I would like to incorporate some of the reources that I use to stay informed on the happenings of the Tech world, to allow my website to act as a resource for knowledge.
+
+Will be making the website responsive for mobile devices as well.
+
 ### Notes
 This project was bootstrapped with Create React App.
