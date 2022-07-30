@@ -26,13 +26,13 @@
         @apply h-screen mt-24;
     }
     .feature {
-        @apply h-2/3 w-3/5 border-black;
+        @apply h-2/3 w-3/5 border-black xs:w-fit;
     }
     .focus {
         @apply h-screen;
     }
     .focus-piece {
-        @apply h-2/5 w-4/12 flex flex-col justify-evenly items-center;
+        @apply h-2/5 w-4/12 flex flex-col justify-evenly items-center xs:p-4;
     }
     .footer {
         @apply h-72 bg-quad;

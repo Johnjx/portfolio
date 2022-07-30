@@ -1,28 +1,10 @@
 export const Intro = () => (
     <div className="bg-white border-t-4 border-b-4 border-quad h-screen" id="vision-section">
-        <div className="flex w-4/5 m-auto">
-            <section className="w-2/4 p-4">
-                <h2 className="text-3xl p-3 font-cp text-ter">Vision</h2>
-                <div className="h-1 w-1/3 bg-sec">
-                </div>
-                <p className="p-4 leading-loose text-lg font-merri">
-                •   I am a <u>new software developer</u> and my passion for technology and attention to detail has led me down this path.    
-                </p>
-                <p className="p-4 leading-loose text-lg font-merri">
-                •   Being early on ground-breaking tech and acquiring a deep understanding of its purpose is an area that I've been studying for the last few years. For myself, this way of thinking has allowed me to avoid the mirage that everyday life tends to cast and instead explore avenues for change through technology.
-                </p>
-                <p className="p-4 leading-loose text-lg font-merri">
-                •   I approach software development in a similar vein; I am interested in providing a well-structured solution to a problem in an open and ethical fashion.
-                </p>
-                <p className="p-4 leading-loose text-lg font-merri">
-                •   I believe that many issues in our world lay on the spectrum of human affinity for corruption and power juxtaposed to plain old human error. This is why I aim to aid in the proliferation of open blockchain systems, systems that have code as law and offer power symmetry. The most notable implementation of such a system is of course <em>Bitcoin</em>. 
-                </p>
-                <div className="h-2 w-1/3 bg-ter">
-                </div>
-            </section>
-            <section className="w-2/4 p-4">
-                <h2 className="text-3xl p-3 font-cp text-ter">Skillset</h2>
-                <div className="h-1 w-3/4 bg-sec">
+        <div className="lg:flex justify-center items-center m-auto xs:w-fit lg:w-5/6
+                        ">
+            <section className="p-4 xs:w-auto lg:w-3/4" id="skills-section">
+                <h2 className="text-3xl p-3 font-cp text-ter text-center">Skillset</h2>
+                <div className="h-1 w-2/4 bg-sec m-auto mb-4">
                 </div>
                 <div className="h-3/4 flex flex-col justify-evenly p-2">
                     <section className="skill-row">
@@ -54,7 +36,7 @@ export const Intro = () => (
                         </div>
                         <div className="skill-cell">
                             <div className="skill-inner bg-red-300">
-                            React Router D
+                            R.Router
                             </div>
                             <div className="skill-inner bg-red-300">
                             ★★★★☆
@@ -172,7 +154,7 @@ export const Intro = () => (
                     <section className="skill-row">
                         <div className="skill-cell">
                             <div className="skill-inner bg-teal-200">
-                            Tailwind CSS
+                            Tailwind
                             </div>
                             <div className="skill-inner bg-teal-200">
                             ★★★★☆
@@ -180,7 +162,7 @@ export const Intro = () => (
                         </div>
                         <div className="skill-cell">
                             <div className="skill-inner bg-pink-200">
-                            Framer Motion
+                            Framer
                             </div>
                             <div className="skill-inner bg-pink-200">
                             ★★★☆☆
@@ -208,6 +190,8 @@ export const Intro = () => (
                 </div>
             </section>
         </div>
+        <p className="lg:text-lg lg:text-center lg:w-2/5 lg:m-auto p-3 xs:p-2">Hi, I'm John, a new software developer who loves exploring tech. I believe that I bring a strong degree of knowledge and ethics to the development landscape as well as a willingness to learn difficult material independently, while intently trying to connect disparate concepts to arrive at brand new possibilities.</p>
+        <p className="lg:text-lg lg:text-center lg:w-2/5 lg:m-auto p-3 xs:p-2">I am particularly interested in the power of distributed systems but I look forward to improving my skills in all areas of software development.</p>
     </div>
 )
 

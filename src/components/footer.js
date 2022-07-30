@@ -3,13 +3,14 @@ import { SiProtonmail } from 'react-icons/si'
 
 export const Footer = () => (
     <section className="footer" id="contact-section">
-        <a href='mailto:john.jxr@pm.me' className='flex justify-center p-4 w-1/6 m-auto 
+        <a href='mailto:john.jxr@pm.me' className='flex justify-center p-4 lg:w-2/6 m-auto 
         bg-sec hover:bg-yellowVar cursor-pointer border-4 transition-all
-         transition-duration-300 border-black'>
+         transition-duration-300 border-black xs:w-3/5 2xl:w-1/5'>
         <h4 className='text-2xl font-cp'>Email Me.</h4>
         <div className='ml-2'><SiProtonmail size={30}/></div>
         </a>
-        <nav className="h-3/6 flex justify-evenly items-center text-white">
+        <nav className="h-3/6 text-white xs:flex xs:flex-col xs:justify-center xs:items-center
+                        lg:flex lg:flex-row lg:justify-around">
             <a className="footer-nav" href='https://www.linkedin.com/in/john-ruddock/'>
                 <h6
                 className='h-2/4 text-lg hover:text-white transition-all font-play'
@@ -29,7 +30,7 @@ export const Footer = () => (
             <a className="footer-nav" href='https://stacker.news/jx'>
                 <h6
                 className='h-2/4 text-lg hover:text-white transition-all font-play'
-                >Stacker News</h6>
+                >Stacker</h6>
                 <div
                 className='h-2/4 mt-1 ml-1'
                 >
