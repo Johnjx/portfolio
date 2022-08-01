@@ -1,12 +1,11 @@
 export const Intro = () => (
     <div className="bg-white border-t-4 border-b-4 border-quad h-screen" id="vision-section">
-        <div className="lg:flex justify-center items-center m-auto xs:w-fit lg:w-5/6
-                        ">
-            <section className="p-4 xs:w-auto lg:w-3/4" id="skills-section">
+        <div className="">
+            <section className="" id="skills-section">
                 <h2 className="text-3xl p-3 font-cp text-ter text-center">Skillset</h2>
                 <div className="h-1 w-2/4 bg-sec m-auto mb-4">
                 </div>
-                <div className="h-3/4 flex flex-col justify-evenly p-2">
+                <div className="h-3/4 flex flex-col justify-evenly p-2 w-full 2xl:w-3/5 2xl:m-auto">
                     <section className="skill-row">
                         <div className="skill-cell">
                             <div className="skill-inner bg-yellow-200">
@@ -144,7 +143,7 @@ export const Intro = () => (
                         </div>
                         <div className="skill-cell">
                             <div className="skill-inner bg-blue-500">
-                            TypeScript
+                            Typescript
                             </div>
                             <div className="skill-inner bg-blue-500">
                             ★★★☆☆
@@ -172,7 +171,7 @@ export const Intro = () => (
                     <section className="skill-row">
                         <div className="skill-cell">
                             <div className="skill-inner bg-slate-400">
-                            SQLiteStudio
+                            SQLite
                             </div>
                             <div className="skill-inner bg-slate-400">
                             ★★★★☆
@@ -190,8 +189,8 @@ export const Intro = () => (
                 </div>
             </section>
         </div>
-        <p className="lg:text-lg lg:text-center lg:w-2/5 lg:m-auto p-3 xs:p-2">Hi, I'm John, a new software developer who loves exploring tech. I believe that I bring a strong degree of knowledge and ethics to the development landscape as well as a willingness to learn difficult material independently, while intently trying to connect disparate concepts to arrive at brand new possibilities.</p>
-        <p className="lg:text-lg lg:text-center lg:w-2/5 lg:m-auto p-3 xs:p-2">I am particularly interested in the power of distributed systems but I look forward to improving my skills in all areas of software development.</p>
+        <p className="hidden lg:text-lg lg:text-center lg:w-2/5 lg:m-auto p-3 xs:p-2 xs:block font-merri">Hi, I'm John, a new software developer who loves exploring tech. I believe that I bring a strong degree of knowledge and ethics to the development landscape as well as a willingness to learn difficult material independently, while intently trying to connect disparate concepts to arrive at brand new possibilities.</p>
+        <p className=" hidden lg:text-lg lg:text-center lg:w-2/5 lg:m-auto p-3 2xl:block font-merri">I am particularly interested in the power of distributed systems but I look forward to improving my skills in all areas of software development.</p>
     </div>
 )
 

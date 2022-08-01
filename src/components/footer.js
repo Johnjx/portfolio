@@ -9,7 +9,7 @@ export const Footer = () => (
         <h4 className='text-2xl font-cp'>Email Me.</h4>
         <div className='ml-2'><SiProtonmail size={30}/></div>
         </a>
-        <nav className="h-3/6 text-white xs:flex xs:flex-col xs:justify-center xs:items-center
+        <nav className="h-3/6 text-white flex flex-col justify-center items-center
                         lg:flex lg:flex-row lg:justify-around">
             <a className="footer-nav" href='https://www.linkedin.com/in/john-ruddock/'>
                 <h6
