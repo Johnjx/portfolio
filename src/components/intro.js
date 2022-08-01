@@ -189,7 +189,7 @@ export const Intro = () => (
                 </div>
             </section>
         </div>
-        <p className="hidden lg:text-lg lg:text-center lg:w-2/5 lg:m-auto p-3 xs:p-2 xs:block font-merri">Hi, I'm John, a new software developer who loves exploring tech. I believe that I bring a strong degree of knowledge and ethics to the development landscape as well as a willingness to learn difficult material independently, while intently trying to connect disparate concepts to arrive at brand new possibilities.</p>
+        <p className="hidden lg:text-lg lg:text-center lg:w-2/5 lg:m-auto p-3 xs:p-2 sm:block font-merri">Hi, I'm John, a new software developer who loves exploring tech. I believe that I bring a strong degree of knowledge and ethics to the development landscape as well as a willingness to learn difficult material independently, while intently trying to connect disparate concepts to arrive at brand new possibilities.</p>
         <p className=" hidden lg:text-lg lg:text-center lg:w-2/5 lg:m-auto p-3 2xl:block font-merri">I am particularly interested in the power of distributed systems but I look forward to improving my skills in all areas of software development.</p>
     </div>
 )
